@@ -1,0 +1,427 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: block;}
+i{font-style: normal}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+body { font-size:12px}
+a {text-decoration:none;color: #fff;font-size: 12px;}
+.top,.header,.banner,.nav,.new{width: 1190px;margin: 0 auto;}
+input{outline: none;}
+body{background: #f4f4f4}
+
+
+
+
+
+
+/* 顶部 */
+.topWrap{
+    width: 100%;
+    height: 30px;
+    background: #000
+}
+.top .topLeft{
+    width: 420px;
+    height: 30px;
+    float: left;
+    line-height: 28px;  
+}
+.top .topLeft .line{
+    height: 16px;
+    border-left: 1px solid #ccc
+}
+.top .topLeft a{
+    margin: 0 12px;
+}
+.topLeft span{
+    color: #fff;
+    margin:0 18px 0 12px;
+}
+.top .topLeft a:hover{
+    color: #ed0300;
+}
+.top .topCen{
+    line-height: 28px;
+    display: block;
+    width: 230px;
+    float: left;
+    position: relative;
+}
+.top .topCen_1,.topCen_2{
+    /* background: #f4f4f4; */
+    height: 54px;
+}
+/* .top .topCen_2 {
+    background: #000
+} */
+.top .topCen li a{
+    color:#fff;
+}
+.top .topCen a:hover{
+    color: #ed0300;
+}
+.top .topRight{
+    width: 450px;
+    float: right;
+    line-height:28px;
+}
+.top .topRight span{
+    /* padding-left:20px; */
+    float:right;
+    margin-left:20px;
+}
+.top .topRight span a:hover{
+    color: #ed0300;
+}
+.top .topRight .havepic{
+    display: block;
+    width:  80px;
+    text-align: right;
+}
+.top .topRight img{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* 头部 */
+.headerWrap{
+    width: 100%;
+    height:84px;
+    background: #fff;
+}
+.header{
+    height: 84px;
+    position: relative;
+}
+.header img{
+    position: absolute;
+    top:26px;
+}
+.header .input{
+    width: 630px;
+    height: 34px;
+    position: absolute;
+    top:24px;
+    left: 320px;
+}
+.header #txt{
+    width: 520px;
+    height: 32px;
+    border:none;
+    border:1px solid #949494;
+    padding-left:20px;
+}
+.header #btn{
+    float: right;
+    width: 88px;
+    height: 36px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 16px; 
+}
+.header ul{
+    display: block;
+    position: absolute;  
+}
+.header li{
+    float: left;  
+}
+.header li a{
+    display: inline-block;
+    margin: 3px 5px 0 0;
+    line-height: 16px;
+    color:#ababab;
+}
+.header li a:hover{
+    color:#f15186;
+}
+.header .shopcar{
+    width:188px;
+    height: 34px;
+    border:1px solid #dcdcdc;
+    /* border-bottom: 1px solid #fff; */
+    z-index: 2;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    background: url(../images/06.png) no-repeat 43px 4px;
+    font-size:16px;
+    line-height: 34px;
+}
+.header .shopcar a{
+    font-size: 16px;
+    color: #d0152a;
+}
+.header .shopcar i{
+    margin-left:70px;
+}
+.header .shopcarTwo{
+    width: 410px;
+    height: 142px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    position: absolute;
+    top:34px;
+    right: -1px;
+    display: none;
+}
+
+.header .shopcarTwo img{
+    float: left;
+    margin:0 0 0 35px;
+}
+.header .shopcarTwo p{
+    color: #949494;
+    font-size:14px;
+    line-height: 14px;
+    width: 252px;
+    float: right;
+    margin:36px 44px 0 0;
+}
+.header .shopcarTwo a{
+    display: block;
+    width: 50px;
+    height: 22px;
+    background: #ed0300;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 116px;
+    top: 80px;  
+}
+
+
+
+
+/* nav */
+
+.nav{
+    background: #fff;
+    height: 36px;
+    background: #ccc;
+    background: url(../images/07.png) no-repeat right -7px;  
+    position: relative;
+}
+.nav .all{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    background: url(../images/all.png) no-repeat;
+    color: #fff;
+    font-size: 16px;
+    line-height: 34px;
+    text-indent: 14px; 
+}
+.nav ul{
+    position: absolute;
+    left: 240px;
+}
+.nav li{
+    float: left;   
+}
+.nav li a{
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+    margin-left:40px; 
+}
+.nav li a:hover{
+    color: #f15186;
+}
+
+
+
+
+/* footer */
+.footerWrap{
+    width: 100%;
+    height: 490px;
+    background: #fff;
+}
+.footer{
+    margin: 0 auto;
+    height: 390px;
+    margin-top:80px;
+    
+}
+.footer .footerT{
+    margin: 0 auto;
+    width: 1190px;
+    height: 156px;
+    border-bottom: 2px solid #000;
+}
+.footerT li{
+    position: relative;
+    font-weight: bold;
+    width: 236px;
+    float: left;
+    padding-top:30px;
+    height: 96px;
+    line-height: 150px;
+    text-align: center;
+    background: url(../images/common3.jpg) no-repeat  left 65px
+}
+.footerT li:nth-child(1){
+    background: none;
+}
+.footerT li div{
+    position: absolute;
+    left:93px;
+    top:32px;
+    width: 46px;
+    height: 48px;
+    background: url(../images/ems.png) no-repeat -138px;
+}
+.footerT li:nth-child(2) div{
+    background-position-x: -92px;
+}
+.footerT li:nth-child(3) div{
+    background-position-x: 0px;
+}
+.footerT li:nth-child(4) div{
+    background-position-x: -184px;
+}
+.footerT li:nth-child(5) div{
+    background-position-x: -46px;
+}
+.footer .footerM{
+    width: 1190px;
+    height: 232px;
+    margin: 0 auto;
+    position: relative;
+}
+.footerM ul{
+    float: left;
+    width:190px;
+    margin-top:30px;
+}
+.footerM ul .b{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.footerM .black{
+    float: right;
+    margin-top:18px;
+}
+.footerM .black li{
+    width: 60px;
+    height: 22px;
+    background: black;
+    margin-top:22px;
+}
+.footerM ul li a{
+    color: #000;
+}
+.footerM ul li a:hover{
+    color:#f80502
+}
+.footerBWrap{
+    width: 100%;
+    height: 102px;
+    background: #000;
+}
+.footerB{
+    width: 1190px;
+    height: 102px;
+    margin: 0 auto;
+    background: url(../images/police.png) no-repeat 165px 30px;
+    
+    position: relative;
+}
+.footerB .txt{
+    width: 710px;
+    height: 40px;
+    position: absolute;
+    top:30px;
+    left: 200px;
+    font-size: 14px;
+    
+}
+.footerB a{
+    margin-left:45px;
+    font-size: 13px;
+    color:#6e6e6e;
+}
+.footerB a:nth-child(1){
+    margin-left:0;
+}
+.footerB p{
+    color: #fff;
+    margin-top:5px;
+    text-align: center;
+    color: #6e6e6e;
+}
+.footerB img{
+    position: absolute;
+    right:120px;
+    top:30px;
+}
+
+.fix {
+    width: 40px;
+    height: 200px;
+    background: #a9a9a9;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    bottom: 60px;
+    display: none;
+}
+.fix .fixUlist li{
+    width:40px;
+    height: 40px;
+    background: url(../images/jinglingtu.png) no-repeat;
+    cursor: pointer;
+}
+.fixUlist li:nth-child(2){
+    background-position-y: -40px
+}
+.fixUlist li:nth-child(3){
+    background-position-y: -160px
+}
+.fixUlist li:nth-child(4){
+    background-position-y: -240px
+}
+.fixUlist li:nth-child(5){
+    background-position-y: -280px
+}
+
+.fix .fixOlist{
+    width: 120px;
+    height: 200px;
+    background: #484848;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    bottom: 60px;
+    display: none;
+ 
+}
+.fix .fixOlist li{
+    width:120px;
+    height: 40px;
+    background: url(../images/jinglingtu.png) no-repeat right 0;
+    line-height: 40px;
+    text-indent: 16px;
+}
+.fixOlist li:nth-child(2){
+    background-position-y: -40px
+}
+.fixOlist li:nth-child(3){
+    background-position-y: -160px
+}
+.fixOlist li:nth-child(4){
+    background-position-y: -240px
+}
+.fixOlist li:nth-child(5){
+    background-position-y: -280px
+}

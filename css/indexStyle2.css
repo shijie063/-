@@ -1,0 +1,468 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: block;}
+i{font-style: normal}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;} 
+body { font-size:12px}
+a {text-decoration:none;color: #fff;font-size: 12px;}
+.brand,.picks,.skin,.makeup,.fragrance,.footer{width: 1190px;margin: 0 auto;}
+h2{font-size: 25px;line-height: 36px;}
+
+
+/* brand */
+
+.brand{
+    height: 436px;
+    /* background: #ccc; */
+    margin-top:70px;
+    position: relative;
+}
+.oneh2{
+    width: 1190px;
+    height: 36px;  
+}
+.oneh2 h2{
+    float: left;
+    color: #000;
+}
+.oneh2 p{
+    font-size: 23px;
+    float: left;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.brand .oneh2 li{
+    font-size: 13px;
+    float: right;
+    line-height: 50px;
+    margin-left: 24px;
+}
+.brand .brandList{
+    height: 320px;
+    width: 1190px;
+    position: relative;
+    background: #fff;
+    margin-top: 5px;
+}
+.brand .brandList .leftUlist li{
+    width: 590px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brand .brandList .leftOlist li{
+    width: 50px;
+    height: 3px;
+    background: #898989;
+    opacity: 0.3;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    z-index: 5;
+}
+.brand .brandList .leftOlist .current{
+    background: #fff;
+}
+.brand .brandList .leftOlist{
+    position: absolute;
+    left: 240px;
+    bottom: 10px;
+}
+.brand .brandList .rightUlist{
+    width: 600px;
+    height: 320px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.brand .brandList .rightUlist li{
+    float: left;
+    padding: 10px 3px;
+    position: relative;
+    
+}
+.brand .brandList .rightUlist li div{
+    width: 144px;
+    height: 60px;
+    background: #121212;
+    opacity: 0.9;
+    float: left;
+    color: #fff;
+    padding: 10px 3px;
+    text-align: center; 
+    line-height: 36px;
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+    
+}
+.brandList .rightUlist li div a{
+    display: block;
+    width: 84px;
+    height: 20px;
+    background: #f80502;
+    line-height:20px;
+    text-align: center;
+    position: absolute;
+    left: 32px;
+    top: 45px;
+    border-radius: 10px 10px 10px 10px   
+}
+.brandList .le,.ri{
+    width: 26px;
+    height: 80px;
+    opacity: 0.2;
+    background: #000;
+    font-family: "宋体";
+    font-size:30px;
+    line-height: 80px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.brandList:hover .le{
+    display:block;
+}
+.brandList:hover .ri{
+    display:block;
+}
+.brandList .le{
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    z-index: 1;
+}
+.brandList .ri{
+    position: absolute;
+    left: 564px;
+    top: 110px;
+    z-index: 1;
+}
+.brandList .le:hover{
+    opacity: 0.5;
+}
+.brandList .ri:hover{
+    opacity: 0.5;    
+}
+
+
+
+
+
+
+/* picks */
+.picks{
+    widows: 1190px;
+    height: 346px;;
+}
+.picks .picksCon {
+    width: 1190px;
+    height: 310px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.picks .picksCon>a{
+    display: block;
+    width: 590px;
+    height: 300px;  
+}
+.picks .picksCon a:nth-of-type(1){
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.picks .picksCon a:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.picksCon .picksLeft,.picksRight{
+    width: 200px;
+    height: 282px;
+    position: absolute;
+}
+.picksCon .picksLeft{
+    left: 380px;
+    top: 10px;
+}
+.picksCon li{
+    width: 200px;
+    height: 140px;
+    position: relative;
+    
+}
+.picksCon li a{
+padding: 10px 0 0 10px;
+}
+.picksCon>ul img{
+    width: 90px;
+    height: 90px;
+}
+.picksCon .picksRight{
+    right: 10px;
+    top: 10px;
+}
+.picksCon li b,p{
+    color: #000;
+}
+.picks li p{
+    width: 145px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.picksCon li span{
+    display: block;
+    color: #ed0300;
+    font-size: 14px;
+    padding-top:5px;
+}
+.picksCon li img{
+    position: absolute;
+    left: 105px;
+    top: 50px;
+}
+
+
+
+
+/* skin */
+.skin{
+    height: 605px;
+    margin-top:80px;
+}
+.skin .commonh2{
+    width: 1190px;
+    height: 36px;
+}
+
+.skin .common .none{
+    background: none;
+}
+.skinCon{
+    height: 500px;
+    width: 1190px;
+    position: relative;
+    background: #fff;
+}
+
+.commonh2 h2{
+    float: left;
+}
+.commonh2 p{
+    height: 36px;
+    font-size: 23px;
+    float: left;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.common li a{
+        display: block;
+        padding: 0 14px;
+        color: #898989;
+        font-size: 14px;
+        float: right;
+        line-height: 50px;
+        background: url(../images/common.jpg) no-repeat left;
+}
+.common li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+.skinCon_R ul{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.skinCon_R li{
+    width: 190px;
+    height: 230px;
+    position: relative;
+    float: left;
+    padding: 10px 0px 10px 10px;
+    border-left: #ccc;
+}
+.skinCon_R li img{
+    position: absolute;
+    left: 20px;
+   
+    /* margin-left: 10px; */
+}
+.skinCon_R li b,p{
+    color: #121212;
+    font-size: 13px;
+}
+.skinCon_R li p{
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.skinCon_R li span{
+    display: block;
+    color: #f80502;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.skinCon .skinCon_B{
+    margin-top:10px;
+    height: 60px;
+    background: #fff
+}
+.skinCon .skinCon_B li{
+    float: left;
+    padding-right: 4px;
+    background: url(../images/common2.jpg) no-repeat right
+}
+.skinCon .skinCon_B li:hover img{
+    opacity: 0.5;
+}
+
+
+
+
+/* fixed */
+
+.fix {
+    width: 40px;
+    height: 200px;
+    background: #a9a9a9;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    bottom: 60px;
+    display: none;
+}
+.fix .fixUlist li{
+    width:40px;
+    height: 40px;
+    background: url(../images/jinglingtu.png) no-repeat;
+    cursor: pointer;
+}
+.fixUlist li:nth-child(2){
+    background-position-y: -40px
+}
+.fixUlist li:nth-child(3){
+    background-position-y: -160px
+}
+.fixUlist li:nth-child(4){
+    background-position-y: -240px
+}
+.fixUlist li:nth-child(5){
+    background-position-y: -280px
+}
+
+.fix .fixOlist{
+    width: 120px;
+    height: 200px;
+    background: #484848;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    bottom: 60px;
+    display: none;
+ 
+}
+.fix .fixOlist li{
+    width:120px;
+    height: 40px;
+    background: url(../images/jinglingtu.png) no-repeat right 0;
+    line-height: 40px;
+    text-indent: 16px;
+}
+.fixOlist li:nth-child(2){
+    background-position-y: -40px
+}
+.fixOlist li:nth-child(3){
+    background-position-y: -160px
+}
+.fixOlist li:nth-child(4){
+    background-position-y: -240px
+}
+.fixOlist li:nth-child(5){
+    background-position-y: -280px
+}
+
+
+
+.fixed{
+    
+    width: 40px;
+    height: 476px;
+    background: #fff;
+    position: fixed;
+    z-index: 3;
+    bottom: 145px;
+    display: none;
+}
+.fixed li{
+    height: 48px;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    color: #9c9c9c;
+    cursor: pointer;
+}
+.fixed li:hover{
+    color: #ed0300;
+}
+.fixed .red{
+    color: #ed0300;
+}
+
+
+.topFix{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    min-width: 1190px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    box-shadow: 0 0 5px #ccc;
+    display: none;
+}
+.topFix .aaa{
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #fff;
+}
+.topFix img{
+   float: left;
+}
+.topFix .input{
+    width: 630px;
+    height: 34px;
+    float: left;
+    margin-left: 80px;
+}
+.topFix #txt{
+    width: 520px;
+    height: 32px;
+    border:none;
+    border:1px solid #949494;
+    padding-left:20px;
+}
+.topFix #btn{
+    float: right;
+    width: 88px;
+    height: 36px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 16px; 
+}
+
+
+
+
